@@ -1,0 +1,15 @@
+Primeiro dia 
+  Passos 
+   Algoritmo
+    
+    Tipos de Algoritmos
+    
+      - Descrição Narrativa >>>  Descreve cada passo , com as etapas a serem seguidas .
+
+      - Fluxograma  >>>>>        Visualmente claro e intuitivo , mostra o fluxo de forma ordenada , passos definidos.
+
+      - Pseudo Código >>>>>>>>>>>  Texto Estruturado.
+
+      
+
+        
