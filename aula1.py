@@ -50,5 +50,9 @@
 # print ( "mc donald's" )
 
 
+# # Parametros Especiais
+# print("A", "B", "C", sep="-") # sep = separador
+# print("A", "B", "C", end="***") # end = final
+
 
 
