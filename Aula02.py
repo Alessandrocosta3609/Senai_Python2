@@ -82,11 +82,11 @@
 # print(B)
 
 
-A = input ("Digite o primeiro valor : ")
-B = input ("Digite o segundo valor : ")
+# A = input ("Digite o primeiro valor : ")
+# B = input ("Digite o segundo valor : ")
 
-print ( "Valor de A ",A , "Valor de B",B)
+# print ( "Valor de A ",A , "Valor de B",B)
 
 
-A,B = B,A
-print ( "Valor de A ",A , "Valor de B",B)
+# A,B = B,A
+# print ( "Valor de A ",A , "Valor de B",B)
