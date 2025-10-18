@@ -38,13 +38,18 @@
 
 # if aninhado
 
-usuario = input(" Digite o user : ")
-if usuario == "admin":
-    senha = input("Digite a senha: " )
+# usuario = input(" Digite o user : ")
+# if usuario == "admin":
+#     senha = input("Digite a senha: " )
 
-    if senha == "1234":
-        print("Acesso Permitido!")
-    else:
-        print("Senha Errada!")
-else:
-    print("Acesso Negado!")
+#     if senha == "1234":
+#         print("Acesso Permitido!")
+#     else:
+#         print("Senha Errada!")
+# else:
+#     print("Acesso Negado!")
+
+
+# IF de uma Linha
+idade = int(input("Digite a idade:" ))
+print("Maior de Idade") if idade>=18 else print("Menor de Idade")
