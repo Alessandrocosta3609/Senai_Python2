@@ -1,3 +1,5 @@
+# Operadores de Comparação
+
 # if --> Se
 # else --> Se não 
 # elif --> Se não Se
@@ -50,6 +52,40 @@
 #     print("Acesso Negado!")
 
 
-# IF de uma Linha
-idade = int(input("Digite a idade:" ))
-print("Maior de Idade") if idade>=18 else print("Menor de Idade")
+#  IF de uma Linha
+# idade = int(input("Digite a idade:" ))
+# print("Maior de Idade") if idade>=18 else print("Menor de Idade")
+
+
+# n1 = int(input("Digite o 1º Numero : "))
+# n2 = int(input("Digite o 2º Numero : "))
+# if n1>n2:
+#     print("O maior número é", n1 , "e",n2,"é o menor numero")
+# elif n1<n2:
+#     print("O maior número é",n2,"e", n1,"é o menor número")
+# else:
+
+#      print(" Não tente me enganar , os números são iguais")
+
+
+# par = int(input( "Digite um numero qualquer : "))
+# if (par%2)==0:
+#     print(" Esse numero é par")
+# else :
+#     print(" Esse numero é impar ")
+
+# estado = input("Digite seu estado Civil : ").upper() # upper transforma em maiúsculo
+# if estado == "C":
+#     print(" Você é Casado")
+# elif estado == "S":
+#     print("Você é Solteiro")
+# elif estado == "D":
+#     print( "Você é Divorciado")
+# elif estado == "V":
+#     print("Você é Viúvo")
+# elif estado == "O":
+#     print( "Você está na categoria Outros")
+# else :
+#     print("Digite uma opção Válida !!!!!")
+
+
