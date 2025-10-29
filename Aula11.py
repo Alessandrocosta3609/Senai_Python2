@@ -98,3 +98,45 @@ for i in range(3):
     
 
 print(lista)
+
+# Fatiamento ----->  Serve para pegar partes especificas de uma lista
+# sintaxe   lista = [inicio:fim:intervalo]
+
+num = [10,20,30,40,50]
+print(num[1:4])
+print(num[:3])
+print(num[2:])
+print(num[::2])
+print(num[-3:])
+print(num[::-1])
+
+nome = "SENAI"
+print([nome[0:3]])
+print([nome[-3:]])
+
+num = [10,20,30,40,50]
+num[1:4] = [2,3,4]
+print(num)
+
+#Subustituindo valores das listas
+
+num = [10,20,30,40,50]
+num[1:4] = [2,3,4,5,6,7,8]
+print(num)
+
+
+numeros = []
+par = []
+impar = []
+for i in range(1,21):
+    
+    num = int(input(f"Digite o valor do {i}º inteiro :"))
+    numeros.append(num)    
+    if num %2 == 0 :
+        par.append(num)
+    else :
+     impar.append(num)
+
+print(f"Os números que voce digitou foram : {numeros}")
+print(f"Os numeros PARES que voce digitou são :{par}")
+print(f"Os numeros IMPARES que voce digitou são :{impar}")
