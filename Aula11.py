@@ -140,3 +140,5 @@ for i in range(1,21):
 print(f"Os números que voce digitou foram : {numeros}")
 print(f"Os numeros PARES que voce digitou são :{par}")
 print(f"Os numeros IMPARES que voce digitou são :{impar}")
+
+
