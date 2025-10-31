@@ -84,12 +84,14 @@ else :
 pessoa.clear()
 print(pessoa)
 
+
+# Controle de Estoque
 produtos = {
-    "mouse" :  40.00,
-    "Teclado": 125.98,
-    "Monitor": 899.90,
-    "Gabinete": 255.00,
-    "Headset": 789.90,
+    "mouse" :  50.90,
+    "teclado": 125.98,
+    "monitor": 899.90,
+    "gabinete": 255.00,
+    "headset": 789.90,
     "gpu"    : 5376.00,
     "cpu"    : 1890.90,
 
@@ -97,10 +99,13 @@ produtos = {
 
 
 while True :
-    consulta = input("Informe o produto (0 para sair) :")
+    consulta = input("Informe o produto (0 para sair) :").lower()
     if consulta == "0" :
         break
     if consulta in produtos:
         print(f"Produto {consulta} custa {produtos[consulta]}")
     else :
         print(f"Produto {consulta} não encontrado !")
+
+
+print(produtos["monitor"])
