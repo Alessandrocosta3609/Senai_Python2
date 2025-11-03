@@ -131,7 +131,7 @@ while True:
         print("Produto não encontrado!")
         cadastro = input("Deseja cadastrar esse produto? (sim/não): ").lower()
         if cadastro == "sim":
-            nome_produto = consulta  # o nome já foi digitado
+            nome_produto = consulta 
             valor_produto = float(input("Digite o valor do produto: R$ "))
             produtos[nome_produto] = valor_produto
             print(f"Produto '{nome_produto}' cadastrado com sucesso por R$ {valor_produto:.2f}!\n")
